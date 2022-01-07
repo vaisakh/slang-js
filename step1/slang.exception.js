@@ -5,3 +5,5 @@ function SlangException(message) {
     return this.name + this.message
   }
 }
+
+module.exports = SlangException

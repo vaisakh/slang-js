@@ -1,3 +1,5 @@
+const SlangException = require('./slang.exception')
+
 function BinaryExpression(exp1, exp2, op) {
   this.evaluate = function(runtimeContext) {
     switch (op) {

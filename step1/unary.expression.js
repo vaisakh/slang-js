@@ -1,3 +1,5 @@
+const SlangException = require('./slang.exception')
+
 function UnaryExpression(exp1, op) {
   this.evaluate = function(runtimeContext) {
     switch(op) {

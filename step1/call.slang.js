@@ -2,6 +2,7 @@ const OPERATOR = require('./operator')
 const UnaryExpression = require('./unary.expression')
 const BinaryExpression = require('./binary.expression')
 const NumericConstantExpression = require('./numeric.constant.expression')
+const SlangException = require('./slang.exception')
 
 // Abstract Syntax Tree (AST) for 5*10
 let exp1 = new BinaryExpression(new NumericConstantExpression(5),
